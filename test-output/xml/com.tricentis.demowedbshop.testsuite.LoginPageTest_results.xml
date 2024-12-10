@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.853">
+  <properties />
+  
+  
+            <testcase name="userShouldNavigateToLoginPageSuccessFully" time="3.561" classname="com.tricentis.demowedbshop.testsuite.LoginPageTest" />
+                <testcase name="verifyTheErrorMessageWithInValidCredentials" time="4.292" classname="com.tricentis.demowedbshop.testsuite.LoginPageTest" />
+      
+</testsuite>
