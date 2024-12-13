@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Login Test"
-           tests="1"
+<testsuite name="Register Test"
+           tests="3"
            failures="0"
            errors="0"
            skipped="0"
-           time="0.725">
+           time="3.469">
   <properties />
   
   
-            <testcase name="verifyUserShouldNavigateToRegisterPageSuccessfully" time="0.725" classname="com.tricentis.demowedbshop.testsuite.RegisterPageTest" />
+            <testcase name="verifyUserShouldNavigateToRegisterPageSuccessfully" time="0.602" classname="com.tricentis.demowedbshop.testsuite.RegisterPageTest" />
+                <testcase name="verifyThatFirstNameLastNameEmailPasswordAndConfirmPasswordFieldsAreMandatory" time="0.810" classname="com.tricentis.demowedbshop.testsuite.RegisterPageTest" />
+                <testcase name="verifyThatUserShouldCreateAccountSuccessfully" time="2.057" classname="com.tricentis.demowedbshop.testsuite.RegisterPageTest" />
       
 </testsuite>

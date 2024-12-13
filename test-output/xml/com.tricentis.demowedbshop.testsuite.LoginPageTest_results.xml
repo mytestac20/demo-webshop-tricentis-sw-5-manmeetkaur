@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="7.853">
+           time="8.847">
   <properties />
   
   
-            <testcase name="userShouldNavigateToLoginPageSuccessFully" time="3.561" classname="com.tricentis.demowedbshop.testsuite.LoginPageTest" />
-                <testcase name="verifyTheErrorMessageWithInValidCredentials" time="4.292" classname="com.tricentis.demowedbshop.testsuite.LoginPageTest" />
+            <testcase name="verifyTheErrorMessageWithInValidCredentials" time="4.917" classname="com.tricentis.demowedbshop.testsuite.LoginPageTest" />
+                <testcase name="userShouldNavigateToLoginPageSuccessFully" time="3.930" classname="com.tricentis.demowedbshop.testsuite.LoginPageTest" />
       
 </testsuite>

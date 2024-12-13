@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.754">
+           time="1.223">
   <properties />
   
   
-            <testcase name="verifyUserShouldNavigateToComputerPageSuccessfully" time="0.754" classname="com.tricentis.demowedbshop.testsuite.ComputerPageTest" />
+            <testcase name="verifyUserShouldNavigateToComputerPageSuccessfully" time="1.223" classname="com.tricentis.demowedbshop.testsuite.ComputerPageTest" />
       
 </testsuite>

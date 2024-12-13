@@ -3,16 +3,16 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
 <head>
-  <title>Test Results Report - Login Test</title>
+  <title>Test Results Report - Register Test</title>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <meta name="description" content="TestNG unit test results." />
   <link href="reportng.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="reportng.js"></script>
 </head>
 <body>
-<h1>Login Test</h1>
+<h1>Register Test</h1>
 <p>
-  Test duration: 23.481s
+  Test duration: 12.198s
 </p>
 
 
@@ -22,83 +22,62 @@
   <table class="resultsTable">
     <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">com.tricentis.demowedbshop.testsuite.ComputerPageTest</td>
-      </tr>
-            
-<tr>
-  <td class="method">
-                  verifyUserShouldNavigateToComputerPageSuccessfully
-      </td>
-  <td class="duration">
-    0.754s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        Get [[ChromeDriver: chrome on windows (754ca83906a60f7c0c248adeec3454b1)] -&gt; xpath: //div[@class=&apos;header-menu&apos;]/ul[1]/li[2]/a]<br />
-                                get [[ChromeDriver: chrome on windows (754ca83906a60f7c0c248adeec3454b1)] -&gt; xpath: //h1[normalize-space()=&apos;Computers&apos;]]<br />
-                  </div>
-    
-
-      </td>
-</tr>
-          <tr>
-        <td colspan="3" class="group">com.tricentis.demowedbshop.testsuite.LoginPageTest</td>
-      </tr>
-            
-<tr>
-  <td class="method">
-                  userShouldNavigateToLoginPageSuccessFully
-      </td>
-  <td class="duration">
-    3.561s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        Get [[ChromeDriver: chrome on windows (7886cb5705ad88a00261265e30602c88)] -&gt; xpath: //a[normalize-space()=&apos;Log in&apos;]]<br />
-                                get [[ChromeDriver: chrome on windows (7886cb5705ad88a00261265e30602c88)] -&gt; xpath: //h1[normalize-space()=&apos;Welcome, Please Sign In!&apos;]]<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  verifyTheErrorMessageWithInValidCredentials
-      </td>
-  <td class="duration">
-    4.292s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        Get [[ChromeDriver: chrome on windows (fe6a60e7c282cd5e6897c03a38ffb2be)] -&gt; xpath: //a[normalize-space()=&apos;Log in&apos;]]<br />
-                  </div>
-    
-
-      </td>
-</tr>
-          <tr>
         <td colspan="3" class="group">com.tricentis.demowedbshop.testsuite.RegisterPageTest</td>
       </tr>
             
 <tr>
   <td class="method">
-                  verifyUserShouldNavigateToRegisterPageSuccessfully
+                  verifyThatFirstNameLastNameEmailPasswordAndConfirmPasswordFieldsAreMandatory
       </td>
   <td class="duration">
-    0.725s
+    0.810s
   </td>
   <td class="result">
         
     
             <div class="testOutput">
-                        Get [[ChromeDriver: chrome on windows (7aafbdbee75e54a62aaa9848ae500f2e)] -&gt; xpath: //a[normalize-space()=&apos;Register&apos;]]<br />
-                                get [[ChromeDriver: chrome on windows (7aafbdbee75e54a62aaa9848ae500f2e)] -&gt; xpath: //h1[normalize-space()=&apos;Register&apos;]]<br />
+                        Get [[ChromeDriver: chrome on windows (829d8e3aafa67e419c60fa38402dcf0f)] -&gt; xpath: //a[normalize-space()=&apos;Register&apos;]]<br />
+                                get [[ChromeDriver: chrome on windows (829d8e3aafa67e419c60fa38402dcf0f)] -&gt; xpath: //span[@for=&apos;FirstName&apos;]]<br />
+                                get [[ChromeDriver: chrome on windows (829d8e3aafa67e419c60fa38402dcf0f)] -&gt; xpath: //span[@for=&apos;LastName&apos;]]<br />
+                                get [[ChromeDriver: chrome on windows (829d8e3aafa67e419c60fa38402dcf0f)] -&gt; xpath: //span[@for=&apos;Email&apos;]]<br />
+                                get [[ChromeDriver: chrome on windows (829d8e3aafa67e419c60fa38402dcf0f)] -&gt; xpath: //span[@for=&apos;Password&apos;]]<br />
+                                get [[ChromeDriver: chrome on windows (829d8e3aafa67e419c60fa38402dcf0f)] -&gt; xpath: //span[@for=&apos;ConfirmPassword&apos;]]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyThatUserShouldCreateAccountSuccessfully
+      </td>
+  <td class="duration">
+    2.057s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Get [[ChromeDriver: chrome on windows (cf49ad36ff78fe43287106990ec413b5)] -&gt; xpath: //a[normalize-space()=&apos;Register&apos;]]<br />
+                                get [[ChromeDriver: chrome on windows (cf49ad36ff78fe43287106990ec413b5)] -&gt; xpath: //div[contains(text(),&apos;Your registration completed&apos;)]]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToRegisterPageSuccessfully
+      </td>
+  <td class="duration">
+    0.602s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Get [[ChromeDriver: chrome on windows (08b176145e9ba0f3e985d00865b285f0)] -&gt; xpath: //a[normalize-space()=&apos;Register&apos;]]<br />
+                                get [[ChromeDriver: chrome on windows (08b176145e9ba0f3e985d00865b285f0)] -&gt; xpath: //h1[normalize-space()=&apos;Register&apos;]]<br />
                   </div>
     
 
